@@ -3,8 +3,8 @@ const fs = require("fs-extra");
 
 async function main() {
   //compile separately
-  //compile in our code
-  // http://127.0.0.1:7545
+
+  // http://127.0.0.1:7545 => RPC with ganache endpoint
 
   const provider = new ethers.providers.JsonRpcProvider(
     "http://127.0.0.1:7545"
